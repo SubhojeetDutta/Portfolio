@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Port.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Subhojeet
+        <span>Dutta</span></a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+     
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="s.jpg" alt="">
+        </div>
+
+        <div class="home-content">
+            <h1 class="name">Hello, I am <span>Subhojeet</span></h1>
+            <h3 class="text-animation">
+                I am a <span></span>
+            </h3>
+            <p class="para">I am a student of Academy of Technology currently pursuing B.tech in Electronics and Communication. At present I am in my 3rd year of engineering. You can contact me through my Portfolio.</p>
+            <div class="social-icons">
+                <a href="https://wa.me/9523561684" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="mailto:duttasubhojeet15420gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.linkedin.com/in/subhojeet-dutta-88732b286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.instagram.com/subhojeet_dutta19?igsh=dGFsYjR2b2g0bXl3" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.facebook.com/subhojeet.dutta.56?mibextid=ZbWKwL" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                
+            </div>
+            <a href="https://wa.me/9523561684" class="btn" id="h" target="_blank">Hire Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+        </div>
+        <br><br><br><br>
+        <div class="e">Education:</div>
+        <br><br><br>
+        <div class="edu">
+            <div class="c">
+            <p class="college">Academy of Technology|B.tech in Electonics and Communication|CGPA:8.95(up to 5th semester)</p>
+            <p><i class='bx bx-calendar'></i>2021-2025</p>
+            </div>
+            <br><br>
+            <div class="tw">
+                <p class="twelve">MB DAV Public School,Lohardaga|High Secondary|XII|Percentage:94.2</p>
+                <p><i class='bx bx-calendar'></i>2019-2021</p>
+            </div>
+            <br><br>
+            <div class="te">
+                <p class="ten">MB DAV Public School,Lohardaga|Secondary|X|Percentage:95.8</p>
+                <p><i class='bx bx-calendar'></i>2018-2019</p>
+            </div>
+         </div>
+         <br><br>
+         <div class="sk">Skills:</div>
+         <br><br><br>
+         <div class="skills">
+            <p>
+                &bull; Languages known:C, C++, Core Java <br>
+                &bull; Technologies:Multitreading(Java based) <br>
+                &bull; Coursework:Object Oriented Programming(Java based), Data Structures and Algorithms 
+            <br>&bull; Soft skills:Leadership, Communication
+            </p>
+         </div>
+         <br><br><br>
+         <div class="p">Projects:</div>
+         <br><br><br>
+         <div>
+        
+         <div class="pro"><p>&bull; A webpage for a local gym <br>Technologies used:HTML, CSS <br><br>
+            &bull; Ongoing final year project:Smart helmet based on Iot <br><br>
+            &bull; Personal Portfolio<br>Technologies used:HTML, CSS, Javascript
+        </p></div>
+
+        </div>
+        <div class="hobby">Hobbies:</div> <br><br><br>
+        <div class="hob">
+            <p>&bull; Drawing <br> &bull; Playing Cricket</p>
+        </div>
+        
+    </section>
+        
+    <section class="services" id="services">
+       <h2 class="heading" id="heading">Services:</h2>
+       <div class="services-c">
+         <div class="service-box1">
+            <div class="service-info">
+                <h4>Frontend Developer</h4>
+                <p>I can design good webpages and they can handle intermediate level of task.</p>
+            </div>
+         </div>
+
+         <div class="service-box2">
+            <div class="service-info">
+                <h4>Problem Solver</h4>
+                <p>I can provide solutions to real life problems. Also I have good logic generating ability for coding problems</p>
+            </div>
+         </div>
+       </div>
+    </section>
+    <section class="contact">
+        <div class="con">Contact me:</div>
+        <div class="d">Enter your details below:</div>
+        <div class="details">
+            <form onsubmit="emailSend(); reset(); return false;" class="form">
+                <label for="name">Enter your name</label><br>
+                <input class="boxes" type="text" id="name" name="name"><br>
+                <label for="gmail">Enter your gmail</label><br>
+                <input class="boxes" type="text" id="gmail" name="email"><br>
+                <label for="number">Enter your contact number</label><br>
+                <input class="boxes" type="text" id="number" name="number"><br>
+                <label for="message">Enter your message</label><br>
+                <textarea class="boxes" name="message" id="message" cols="30" rows="4"></textarea><br>
+
+                <button class="final" type="submit">Submit</button>
+            </form>
+        </div>
+        
+    </section>
+
+    <section class="copyright">
+        <p class="copy"></p>
+    </section>
+    <section class="last">
+        <div class="l">Copyright &copy; by Subhojeet Dutta|Rights Reserved</div>
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="P.js"></script>
+</body>
+</html>
